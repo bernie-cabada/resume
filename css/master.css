@@ -8,6 +8,7 @@ body{
    margin-top: 70px
    background: black;
    font-size: 18px;
+   color: black;
 }
 .navbar-inverse .navbar-brand {
 color: #27AE60;
@@ -32,24 +33,14 @@ font-weight: bold;
     padding-top: 50px;
   }
 .jumbotron .h1, .jumbotron h1{
-  font-size: 8rem;
+  font-size: 7rem;
   color:#27AE60;
   margin-bottom: 30px;
 }
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
   color: white;
 
-}
-div h2 {
-  font-size: ;
-  color: #27AE60;
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
-}
-div p {
-  font-size: 1.5rem;
-  text-align: center;
 }
 .jumbotron p{
   color: white;
@@ -60,9 +51,10 @@ hr{
   margin-top: 15px;
   border-top: 2px solid #27AE60;
 }
-h2{
-  font-size: 22px;
+.jumbotron h2{
+  font-size: 2.5rem;
   margin-bottom: 40px;
+
 }
 .about{
   background: #D8DDEF;
@@ -75,11 +67,47 @@ h2{
   color: #27AE60;
 
 }*/
-.experience h3, h4{
+.experience h3, h4, h5{
 color: #1d1c1c;
 }
 div.education{
   background: #A0A4B8;
+}
+.sectiontitle{
+  padding: 40px 180px;
+
+}
+.sectiontitle h2{
+  color: #27AE60;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 400;
+}
+.sectiontitle .job{
+  margin-bottom: 20px;
+}
+.sectiontitle p{
+  font-size: 20px;
+  text-align: center;
+
+}
+.sectiontitle .job p{
+  font-size: 1.5rem;
+  text-align: left;
+}
+.sectiontitle .job li{
+  font-size: 1.5rem;
+  text-align: left;
+}
+.sectiontitle h4{
+  text-align: center;
+  font-weight: bold;
+}
+.skills{
+  background: #27AE60;
+}
+.skills.sectiontitle h2, h4{
+  color: black;
 }
 .mainheader{
    position: relative;
