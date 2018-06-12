@@ -1,15 +1,11 @@
 body{
   font-family: 'Space Mono', monospace;
-/*    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);*/
    margin-top: 70px
    background: black;
    font-size: 18px;
    color: black;
 }
+
 .navbar-inverse .navbar-brand {
 color: #27AE60;
 font-weight: bold;
@@ -24,9 +20,13 @@ font-weight: bold;
 }
 .jumbotron{
     background-color: transparent;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.6);
      height:500px;
      margin-bottom: 0;
+}
+.darkback{
+   background-color: transparent;
+    background: rgba(0,0,0,.6);
 }
 .jumbotron .container {
     height: .5em;
@@ -62,16 +62,18 @@ hr{
 .experience{
   background: #ffffff;
 }
-/*.experience h2{
-
-  color: #27AE60;
-
-}*/
 .experience h3, h4, h5{
 color: #1d1c1c;
 }
 div.education{
-  background: #A0A4B8;
+  /*background: #A0A4B8;*/
+  color: #ffffff;
+background: url(../images/boisecity.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 .sectiontitle{
   padding: 40px 180px;

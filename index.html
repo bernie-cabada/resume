@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/master.css" >
+        <!-- Javascript -->
+        <script type="text/javascript" src="js/matrix.js"></script>
+        <!-- google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-<!--         <meta name="viewport" content="width=device-width, initial-scale=1">
- -->
-
-        <title>Resume | Bernie Cabada - Data Pro for Hire</title>
+        <!-- mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume | Bernie Cabada</title>
         <meta charset="utf-8">
     </head>
     <body>
@@ -20,105 +24,106 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand">Bernie Cabada</a>
+                    <a href="#" class="navbar-brand" href="#main">Bernie Cabada</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-nav-demo">
                     <ul class="nav navbar-nav">
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">About.</a></li>
-                        <li><a href="#">Experience.</a></li>
-                        <li><a href="#">Skills.</a></li>
-                        <li><a href="#">Contact.</a></li>
+                        <li><a href="#about">About.</a></li>
+                        <li><a href="#exp">Experience.</a></li>
+                        <li><a href="#skill">Skills.</a></li>
+                        <li><a href="#cont">Contact.</a></li>
                     </ul>
                 </div>
-            </nav>
-            <div class="mainheader">
-                <div class="jumbotron">
-                    <div class="container">
+            </div>
+        </nav>
+        <div class="mainheader id="main"">
+            <div class="jumbotron">
+                <div class="container row">
+                    <div class="col-md-12">
                         <h1>My Interactive Resume</h1>
-                        <h2>Let me be your data problem solver</h2>
+                        <h2>Here is some inspirational text</h2>
                         <p></p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="about sectiontitle">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-                <hr>
-                <div class="row"></div>
-                <div class="row">
-                    <div class="col-12 col-md-8">image of me<img src=""></div>
-                    <div class="col-6 col-md-4">A little bit of info about me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <!-- /div> -->
+            <div class="about sectiontitle row" id="about">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                    <hr>
+                    <div class="col-sm-12 col-md-8">image of me<img src=""></div>
+                    <div class="col-sm-12 col-md-4">A little bit of info about me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
-                </div>
-                <div class="col-md-4 col-xs-8 job"></div>
-                <div class="col-md-8 col-xs-12 job"></div>
-            </div>
-        </div>
-        <div class="experience sectiontitle">
-            <div class="container">
-                <h2>Experience</h2>
-                <p> Six months of analytics consultings for local non-profit organizations. Three months of assistive project management and analytic work for web and full stack development industry. Executes professional data research and delivers powerful visualizations to drive decisions based on facts. </p>
-                <hr>
-                <div class="container row">
-                    <div class="col-md-6 col-xs-12 job">
-                        <h4>Ventive
-                        | Award-Winnging Digital Product Agency</h4>
-                        <p><em>March 2018 - Present</em></p>
-                        <p>Ventive is a fast paced/high growth startup that creates digital products. At Ventive I collaborate with UX/UI developers and assist project managers build beautiful products and release to market.</p>
-                        <h5><li><strong>High-Level Programming</strong></li></h5>
-                        <h5><li><strong>Product Testing/Documenting</strong></li></h5>
-                        <h5><li><strong>Assistant Managing</strong></li></h5>
-                    </div>
-                    <div class="col-md-6 col-xs-12 job">
-                        <h4>Boise Analytics</h4>
-                        <p><em>December 2017 - Present</em></p>
-                        <p>At Boise Analytics I have the opportunity to volunteer or freelance my work and gain additional experience. Projects invovle data collection, analysis, documentation, and to build reports and dashboards that drive decisions. I am always looking to take on new projects to assist my community and excercise my skills. </p>
-                        <h5><li><strong>Ad-hoc Reporting</strong></li></h5>
-                        <h5><li><strong>Data Querying</strong></li></h5>
-                        <h5><li><strong>Document/Relational Databases</strong></li></h5>
-                    </div>
+                    <div class="col-md-4 col-xs-8 job"></div>
+                    <div class="col-md-8 col-xs-12 job"></div>
                 </div>
             </div>
-        </div>
-        <div class="education sectiontitle">
-            <div class="container">
-                <h2>Education.</h2>
-                <p>I am recent college grad with four years of academic experience employing complex tools and critical thinking in data analysis. <a href="https://cobe.boisestate.edu/students/signature-student-award/"><em>Received BSU Honored Signature Student award.</em></a> </p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="experience sectiontitle row" id="exp">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>Experience</h2>
+                    <p> Six months of analytics consultings for local non-profit organizations. Three months of assistive project management and analytic work for web and full stack development industry. Executes professional data research and delivers powerful visualizations to drive decisions based on facts. </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 job">
+                            <h4>Ventive
+                            | Award-Winnging Digital Product Agency</h4>
+                            <p><em>March 2018 - Present</em></p>
+                            <p>Ventive is a fast paced/high growth startup that creates digital products. At Ventive I collaborate with UX/UI developers and assist project managers build beautiful products and release to market.</p>
+                            <h5><li><strong>High-Level Programming</strong></li></h5>
+                            <h5><li><strong>Product Testing/Documenting</strong></li></h5>
+                            <h5><li><strong>Assistant Managing</strong></li></h5>
+                        </div>
+                        <div class="col-sm-12 col-md-6 job">
+                            <h4>Boise Analytics</h4>
+                            <p><em>December 2017 - Present</em></p>
+                            <p>At Boise Analytics I have the opportunity to volunteer or freelance my work and gain additional experience. Projects invovle data collection, analysis, documentation, and to build reports and dashboards that drive decisions. I am always looking to take on new projects to assist my community and excercise my skills. </p>
+                            <h5><li><strong>Ad-hoc Reporting</strong></li></h5>
+                            <h5><li><strong>Data Querying</strong></li></h5>
+                            <h5><li><strong>Document/Relational Databases</strong></li></h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="skills sectiontitle">
-            <div class="container">
-                <h2>Skills.</h2>
-                <p>bacon Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr>
+            <div class="education sectiontitle">
+                <div class="darkback row">
+                    <div class="col-sm-12">
+                        <h2>Education.</h2>
+                        <p>I am recent college grad with four years of academic experience employing complex tools and critical thinking in data analysis. <a href="https://cobe.boisestate.edu/students/signature-student-award/"><em>Received BSU Honored Signature Student award.</em></a> </p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    </body>
-</html>
+            <div class="skills sectiontitle row" id="skill">
+                <div class="col-sm-12">
+                    <h2>Skills.</h2>
+                    <p>bacon Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <hr>
+                </div>
+            </div>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        </body>
+    </html>
